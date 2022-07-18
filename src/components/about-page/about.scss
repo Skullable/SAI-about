@@ -1,0 +1,106 @@
+.about{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    top: 100px;
+    overflow-x: hidden;
+
+    .mid{
+        width: 100%;
+        align-items: center;
+
+        .textcontain{
+
+            h1{
+                position: absolute;
+                width: 164px;
+                height: 76px;
+                font-size: 52px;
+                font-weight: 500;
+                line-height: 54px;
+                z-index: 2;
+                color: black; 
+                top: 160px;
+                right: 45%; 
+                font-family: 'Poppins', sans-serif;
+                text-decoration: bold;
+            }
+
+            ul{
+                position: absolute;
+                top: 230px;
+                right: 44%; 
+                z-index: 2;
+                display: flex;
+                justify-content: space-between;
+
+                .Item{
+                    margin-right: 40px;
+                    font-family: 'Poppins', sans-serif;
+                    font-size: 13px;
+                    line-height: 40px;
+                    font-weight: 500;
+                }
+
+            }
+
+            span{
+                position: absolute;
+                top: 350px;
+                right: 20%; 
+                z-index: 2;
+                width: 60%;
+                display: flex;
+                text-align: center;
+                font-family: 'roboto', sans-serif;
+                font-size: 30px;
+                line-height: 36px;
+                font-weight: 300;
+                color: gray;
+
+
+            }
+
+        }
+
+        img{
+            margin-top: 100px;
+            width: 1485px;
+            height: 213px;
+            position: absolute;
+        }
+    }
+
+    .projects{
+
+        width: 100%;
+        height: 30%;
+        position: absolute;
+        top: 500px;
+
+
+        .container{
+            display: flex;
+            flex-wrap: wrap;
+            padding: 50px;
+            left: 20px;
+            width: 80%;
+
+            .left{
+                flex: 1;
+
+                h4{
+                    font-family: 'roboto', sans-serif;
+                    font-size: 36px;
+                    line-height: 36px;
+                    font-weight: 600; 
+                    color: gray;
+                }
+            }
+
+            .right{
+                flex: 1;
+            }
+        }
+    }
+}
